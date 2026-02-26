@@ -1,0 +1,64 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header{
+    height: 100vh;
+    background-image: url('../imgs/kapuchino.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+  flex-grow: 1;
+}
+.saitnav {
+    display: flex;
+  
+}
+.container {
+    width: 100%;
+    max-width: 1412px;
+    margin: 0 auto;
+
+}
+.saitnav-container {
+    display: flex;
+      justify-content: space-between;
+    align-items: center;
+}
+.logo {
+}
+.sait-logo {
+}
+.saitnav_links {
+}
