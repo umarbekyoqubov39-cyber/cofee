@@ -31,10 +31,12 @@ body {
   justify-content: space-between;
 }
 header{
+  display: flex;
+  flex-direction: column;
     height: 100vh;
     background-image: url('../imgs/kapuchino.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -59,6 +61,47 @@ main {
 .logo {
 }
 .sait-logo {
+display: flex;
+gap: 26px;
 }
 .saitnav_links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+   a{
+      color: white;
+   }
+}
+.title{
+  text-align: center;
+  color: white;
+}
+.strelka{
+background-color: #F39C11;
+padding: 19px;
+border-radius: 50px;
+}
+.hiro {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-top: 108px;
+}
+.container {
+     width: 100%;
+    max-width: 1412px;
+    margin: 0 auto;
+}
+.hiro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
+}
+
+.down-arrov {
+  
+
+
 }
