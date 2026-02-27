@@ -374,3 +374,35 @@ border-radius: 50px;
     margin-left: 70px;
   }
 }
+.box{
+  width: 268px;
+}
+.boxs{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.secondmainsection{
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3D210C;
+}
+.secondmainsection h2{
+  text-align: center;
+}
+.Features{
+  margin-bottom: 33px;
+  color: white;
+}
+.icons{
+  margin-bottom: 16px;
+}
+.high-qu{
+  margin-bottom: 10px;
+  color: white;
+}
+.informations{
+  color: white;
+}
