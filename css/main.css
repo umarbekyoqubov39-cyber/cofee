@@ -359,12 +359,18 @@ border-radius: 50px;
   }
 }
 @media(max-width:500px){
+  .cofee-break{
+    width: 350px;
+  }
   .main-btn{
-    margin-left: 105px;
+    margin-left: 90px;
   }
 }
 @media(max-width:440px){
+  .cofee-break{
+    width: 330px;
+  }
   .main-btn{
-    margin-left: 85px;
+    margin-left: 70px;
   }
 }
