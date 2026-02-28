@@ -164,7 +164,7 @@ main {
 }
 .container {
     width: 100%;
-    max-width: 1412px;
+    max-width: 1512px;
     margin: 0 auto;
     padding: 60px 40px;
 
@@ -216,7 +216,7 @@ border-radius: 50px;
 }
 .container {
      width: 100%;
-    max-width: 1412px;
+    max-width: 1512px;
     margin: 0 auto;
 }
 .hiro-container {
@@ -281,7 +281,7 @@ border-radius: 50px;
 }
 .container {
   width: 100%;
-  max-width: 1412px;
+  max-width: 1512px;
   margin: 0 auto;
 }
 .mainsection-con {
@@ -455,96 +455,57 @@ border-radius: 50px;
     text-align: center;
   }
 }
-.container{
-  width: 100%;
-  max-width: 1412px;
-  margin: 0 auto;
-}
-.prices-container{
-  display: flex;
-}
-.main-article{
-  text-align: center;
-}
-.frist-btn{
-  align-items: end;
-  background-color: #F39C11;
-  padding: 20px 30px 20px 30px ;
-  border-radius: 10px;
-  margin-bottom: 10px;
-
-}
-.prices{
-    width: 100%;
-  max-width: 1412px;
-  margin: 0 auto;
-  display: flex;
+.typs {
   background-color: #FFF4D8;
 }
-.chests{
-  display: flex;
-  flex-wrap: wrap;
-  gap:40px;
+.container {
+  width: 100%;
+  max-width: 1512px;
+  margin: 0 auto;
+  padding: 219px 50px 76px 50px ;
 }
-.chest{
-  border-radius:  16px; ;
+.typs-container{
+  display: flex;
+  gap: 191px;
+}
+.about-teame {
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.meniu {
+
+  align-self: center;
+}
+.products {
+  background-color: #F39C11;
+  border-radius: 10px;
+  padding: 10px 30px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.chests {
+  display: flex;
+  gap: 40px;
+}
+.chest {
   background-color: white;
   display: flex;
   flex-direction: column;
-  
-  
   justify-content: space-between;
   align-items: center;
-}
-.price{
-  display: flex;
-  gap: 98px;
-  padding: 3px;
-}
-.chests-article{
-font-family: 'Rubik'; 
-font-weight: 600;
-font-size: 30px;
-line-height: 40px;
-  
-}
-.chests-text{
-  padding: 0px 10px;
-  font-family: 'Rubik';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  
-  
-}
-.pictures{
   padding: 10px;
-  width: 398px;
-}
-.second-btn{
   border-radius: 8px;
-  padding: 20px 60px 20px 60px;
-  color: #F39C11;
-  border: 1px solid #F39C11;
-  background-color: transparent;
+  width: 444px;
 }
-.mone{
-  font-family: 'Rubik';
-  font-weight:700;
-  font-size: 40px;
-  line-height: 40px;
+.picture {
 }
-@media(max-width:1410px){
-  .price{
-    gap: 80px;
-  }
-  .second-btn{
-    padding: 10px 40px 10px 40px;
-  }
-  .chest{
-    flex-wrap: wrap;
-  }
-}
+.chests-article {
 
-
+}
+.chests-text {
+}
+.prices {
+}
